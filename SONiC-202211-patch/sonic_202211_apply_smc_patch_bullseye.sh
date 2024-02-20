@@ -111,7 +111,7 @@ main()
     [ -d patches ] || mkdir patches
 
     # Apply patches
-    #apply_smc_kernel_patches
+    apply_smc_kernel_patches
     # Apply submodule patches
     apply_device_platform_updates
 }
